@@ -1,0 +1,29 @@
+{
+  "name": "gpwebpay",
+  "version": "0.0.1",
+  "description": "GP WebPay nodejs implementation.",
+  "main": "lib/gpwebpay.js",
+  "scripts": {
+    "test": "mocha ./test/*.test.* --require should --reporter spec --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zwizu/node-gpwebpay.git"
+  },
+  "keywords": [
+    "creditcard",
+    "gpwebpay",
+    "card"
+  ],
+  "author": "VlaPo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zwizu/node-gpwebpay/issues"
+  },
+  "homepage": "https://github.com/zwizu/node-gpwebpay#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "nock": "^7.7.2",
+    "should": "^8.3.0"
+  }
+}
